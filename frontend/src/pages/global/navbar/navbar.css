@@ -1,0 +1,5 @@
+.navbar{
+    padding: 20px 40px 0 40px;
+    background-color: #090909;
+    box-shadow: 0 0 5px 5px #090909,0 0 10px 7px #090909,0 0 15px 12px #090909,0 0 30px 15px #090909, 0 0 50px 23px #090909;
+}
