@@ -6,14 +6,22 @@ import './App.css'
 import Navbar from './pages/global/navbar/navbar'
 import HomeSlider from './pages/global/slider/HomeSlider'
 import Category from './pages/category/Category';
+import TopSearch from './pages/global/TopSearch/TopSearch';
 
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <HomeSlider/>
-      <Category/>
+    <div className="MainSpace">
+      <div className="NavbarSpace">
+        <Navbar/>
+      </div>
+      <div className="ContentSpace">
+        <TopSearch/>
+        <HomeSlider/>
+        <Category/>
+      </div>
+    </div>
     </>
   )
 }

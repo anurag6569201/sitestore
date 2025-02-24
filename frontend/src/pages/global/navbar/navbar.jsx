@@ -4,38 +4,37 @@ import Logo_img from './images/logo_dark.png'
 function Navbar() {
     return (
         <>
-            <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src={Logo_img} alt="" width='80px' /></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr class="dropdown-divider"/></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                        </form>
+            <div id="nav-bar">
+                <input id="nav-toggle" type="checkbox" />
+                <div id="nav-header"><a id="nav-title" href="https://codepen.io" target="_blank">C<i class="fab fa-codepen"></i>DEPEN</a>
+                    <label for="nav-toggle"><span id="nav-toggle-burger"></span></label>
+                    <hr />
+                </div>
+                <div id="nav-content">
+                    <div class="nav-button"><i class="fas fa-palette"></i><span>Your Work</span></div>
+                    <div class="nav-button"><i class="fas fa-images"></i><span>Assets</span></div>
+                    <div class="nav-button"><i class="fas fa-thumbtack"></i><span>Pinned Items</span></div>
+                    <hr />
+                    <div class="nav-button"><i class="fas fa-heart"></i><span>Following</span></div>
+                    <div class="nav-button"><i class="fas fa-chart-line"></i><span>Trending</span></div>
+                    <div class="nav-button"><i class="fas fa-fire"></i><span>Challenges</span></div>
+                    <div class="nav-button"><i class="fas fa-magic"></i><span>Spark</span></div>
+                    <hr />
+                    <div class="nav-button"><i class="fas fa-gem"></i><span>Codepen Pro</span></div>
+                    <div id="nav-content-highlight"></div>
+                </div>
+                <input id="nav-footer-toggle" type="checkbox" />
+                <div id="nav-footer">
+                    <div id="nav-footer-heading">
+                        <div id="nav-footer-avatar"><img src="https://gravatar.com/avatar/4474ca42d303761c2901fa819c4f2547" /></div>
+                        <div id="nav-footer-titlebox"><a id="nav-footer-title" href="https://codepen.io/uahnbu/pens/public" target="_blank">uahnbu</a><span id="nav-footer-subtitle">Admin</span></div>
+                        <label for="nav-footer-toggle"><i class="fas fa-caret-up"></i></label>
+                    </div>
+                    <div id="nav-footer-content">
+                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
-            </nav>
+            </div>
         </>
     )
 }

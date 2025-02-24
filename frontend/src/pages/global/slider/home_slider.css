@@ -2,7 +2,8 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #605f5f46;
+    background: #262626;
+    z-index: 100 !important;
   
     display: flex;
     justify-content: center;

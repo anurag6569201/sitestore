@@ -1,4 +1,18 @@
 body{
-    background-color: #101010;
+    background-color: #262626;
     position: relative;
+}
+.MainSpace{
+    height: 100%;
+    display: flex;
+}
+.NavbarSpace{
+    margin: 20px 0 20px 20px;
+    max-width: 256px;
+}
+.ContentSpace{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    overflow-x: hidden;
 }
