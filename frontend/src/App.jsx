@@ -7,7 +7,7 @@ import Discover from './pages/Discover/Discover';
 import WebTrending from './pages/WebTrending/WebTrending';
 import WebTypes from './pages/WebTypes/WebTypes';
 import WebUpdates from './pages/WebUpdates/WebUpdates';
-
+import ImgMediaCard from './pages/AppLook/ImgMediaCard';
 function App() {
 
   return (
@@ -23,6 +23,7 @@ function App() {
               <Route path="/updates" element={WebUpdates()} />
               <Route path="/trending" element={WebTrending()} />
               <Route path="/types" element={WebTypes()} />
+              <Route path="/look" element={ImgMediaCard()} />
             </Routes>
           </div>
         </div>

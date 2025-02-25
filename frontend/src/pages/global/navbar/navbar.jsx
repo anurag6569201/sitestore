@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './navbar.css';
 import Logo_img from './images/logo_dark.png';
 
-import Discover from '../../Discover/Discover';
 function Navbar() {
     return (
         <div id="nav-bar">
@@ -18,6 +17,7 @@ function Navbar() {
                 <hr />
                 <Link className="nav-button" to="/trending"><i className="fas fa-chart-line"></i><span>Trending</span></Link>
                 <Link className="nav-button" to="/types"><i className="fas fa-magic"></i><span>Spark</span></Link>
+                <Link className="nav-button" to="/look"><i className="fas fa-magic"></i><span>App Look</span></Link>
                 <div id="nav-content-highlight"></div>
             </div>
             <input id="nav-footer-toggle" type="checkbox" />
