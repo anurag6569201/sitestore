@@ -14,13 +14,15 @@ import { Grid, Pagination, Navigation } from 'swiper/modules';
 
 function Category2() {
   return (
+    <>
+    <h4 style={{color:'#8392a5'}}>Try These Favourites</h4>
     <div>
        <Swiper
         slidesPerView={5}
         grid={{
           rows: 4,
         }}
-        loop={true}
+        loop={false}
         spaceBetween={20}
         pagination={{
           clickable: true,
@@ -59,6 +61,7 @@ function Category2() {
         <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
     </div>
+    </>
   );
 }
 export default Category2;

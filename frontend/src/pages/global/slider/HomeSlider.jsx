@@ -18,7 +18,7 @@ export default function HomeSlider() {
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
-        loop={true}
+        loop={false}
         pagination={{
           clickable: true,
         }}

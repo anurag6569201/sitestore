@@ -17,7 +17,7 @@ function Category1() {
        <Swiper
         slidesPerView={3}
         spaceBetween={30}
-        loop={true}
+        loop={false}
         pagination={{
           clickable: true,
         }}

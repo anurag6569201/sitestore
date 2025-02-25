@@ -14,10 +14,11 @@ import { Pagination, Navigation } from 'swiper/modules';
 function Category3() {
   return (
     <div>
+        <h4 style={{color:'#8392a5'}}>The Latest Must Visit Websites</h4>
        <Swiper
         slidesPerView={4}
         spaceBetween={30}
-        loop={true}
+        loop={false}
         pagination={{
           clickable: true,
         }}
