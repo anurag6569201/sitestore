@@ -1,6 +1,9 @@
 import * as React from 'react';
 import './ImgMediaCard.css';
 
+import AppScreenshot from './AppFeatures/AppScreenshot';
+import AppDescription from './AppFeatures/AppDescription';
+
 export default function ImgMediaCard() {
   return (
     <>
@@ -44,6 +47,13 @@ export default function ImgMediaCard() {
         </p>
         <button className="btn app_overview_intro_btn">Share</button>
       </div>
+      </div>
+      <div className="row" style={{zIndex:'100'}}>
+        <div className="col-md-9" style={{zIndex:'100'}}>
+          <AppScreenshot/>
+          <AppDescription/>
+        </div>
+        <div className="col-md-3" style={{zIndex:'100'}}></div>
       </div>
     </>
   );
