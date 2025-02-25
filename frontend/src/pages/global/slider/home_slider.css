@@ -1,14 +1,15 @@
-
+:root {
+  --swiper-navigation-size: 30px;
+}
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #262626;
+    background: #2b2b2b;
     z-index: 100 !important;
   
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
   }
   
   .swiper-slide img {
@@ -23,3 +24,24 @@
     margin-right: auto;
   }
   
+
+
+  .mySwiperhomeSlider{
+    height: 50vh;
+  }
+  .mySwiperCategory1{
+    height: 30vh;
+  }
+  .myswiperCategory2{
+    height: 350px;
+  }
+  .mySwiperCategory3{
+    height: 30vh;
+  }
+
+  .swiper-button-prev, .swiper-button-next{
+    color: #8392a5;
+  }
+  .swiper-pagination-bullet-active {
+    background: #8392a5;
+}

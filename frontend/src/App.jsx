@@ -18,6 +18,7 @@ function App() {
       </div>
       <div className="ContentSpace">
         <TopSearch/>
+        <br />
         <HomeSlider/>
         <Category/>
       </div>

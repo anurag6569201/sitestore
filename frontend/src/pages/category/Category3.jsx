@@ -7,16 +7,15 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import './home_slider.css';
-
-// import required modules
+import '../global/slider/home_slider.css';
 import { Pagination, Navigation } from 'swiper/modules';
 
-export default function HomeSlider() {
+
+function Category3() {
   return (
-    <>
-      <Swiper
-        slidesPerView={1}
+    <div>
+       <Swiper
+        slidesPerView={4}
         spaceBetween={30}
         loop={true}
         pagination={{
@@ -24,7 +23,7 @@ export default function HomeSlider() {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper mySwiperhomeSlider"
+        className="mySwiper mySwiperCategory3"
       >
         <SwiperSlide>Slide 1</SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
@@ -36,6 +35,7 @@ export default function HomeSlider() {
         <SwiperSlide>Slide 8</SwiperSlide>
         <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }
+export default Category3;

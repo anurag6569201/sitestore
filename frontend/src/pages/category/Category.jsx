@@ -1,14 +1,22 @@
+import Category1 from "./Category1";
+import Category2 from "./Category2";
+import Category3 from "./Category3";
+import CategoryFooter from "./CategoryFooter";
+
+import './Category.css'
+
 function Category(){
     return (
-        <div>
-            <h1>Bottom Page</h1>
-            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus fugit qui ipsa delectus numquam? Quidem sed aut eum laudantium quisquam ad possimus cupiditate incidunt aliquid, vel voluptates tenetur fugiat fuga?</h2>
-            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus fugit qui ipsa delectus numquam? Quidem sed aut eum laudantium quisquam ad possimus cupiditate incidunt aliquid, vel voluptates tenetur fugiat fuga?</h2>
-            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus fugit qui ipsa delectus numquam? Quidem sed aut eum laudantium quisquam ad possimus cupiditate incidunt aliquid, vel voluptates tenetur fugiat fuga?</h2>
-            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus fugit qui ipsa delectus numquam? Quidem sed aut eum laudantium quisquam ad possimus cupiditate incidunt aliquid, vel voluptates tenetur fugiat fuga?</h2>
-            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus fugit qui ipsa delectus numquam? Quidem sed aut eum laudantium quisquam ad possimus cupiditate incidunt aliquid, vel voluptates tenetur fugiat fuga?</h2>
-            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus fugit qui ipsa delectus numquam? Quidem sed aut eum laudantium quisquam ad possimus cupiditate incidunt aliquid, vel voluptates tenetur fugiat fuga?</h2>
-        </div>
+        <>
+            <br />
+            <Category1/>
+            <br />
+            <Category2/>
+            <br />
+            <Category3/>
+            <br />
+            <CategoryFooter/>
+        </>
     )
 }
 export default Category;
