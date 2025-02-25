@@ -1,0 +1,65 @@
+.comments-section {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    /* text-align: center; */
+    margin-bottom: 15px;
+  }
+  
+  .comment {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .comment-content {
+    flex-grow: 1;
+  }
+  
+  .comment-time {
+    font-size: 12px;
+    color: gray;
+    margin-left: 10px;
+  }
+  
+  .comment-actions {
+    margin-top: 8px;
+  }
+  
+  .like-btn, .dislike-btn {
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .like-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .dislike-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .like-btn:hover, .dislike-btn:hover {
+    opacity: 0.8;
+  }
+  

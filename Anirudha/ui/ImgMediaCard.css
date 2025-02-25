@@ -1,0 +1,110 @@
+/* General Container */
+.mat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  /* Left Section */
+  .left {
+    background-color: #d1e8ff;
+    padding: 40px;
+    flex: 0 0 70%;
+    text-align: left;
+    margin: 10px;
+    border: 2px solid #0056b3;
+    border-radius: 8px;
+    height: calc(100% - 20px);
+    overflow-y: auto; /* Allows scrolling if content overflows */
+    width: 100%; /* Ensure it takes full width */
+  }
+  
+  /* Right Section */
+  .right {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Allow it to grow naturally */
+  }
+  
+  /* Left Content */
+  .leftContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .leftText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Logo */
+  .logoContainer {
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .logoBox {
+    background-color: rgb(59, 50, 50);
+    padding: 10px;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Section Styling */
+  .sectionContainer {
+    width: 100%; /* Take full width of parent container */
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ccc;
+  }
+  
+  /* Button Styling */
+  .button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #003d80;
+  }
+  
+  /* Cards */
+  .cards {
+    background-color: #ffe0e0;
+    padding: 40px;
+    text-align: left;
+    margin-top: 10px;
+    border: 2px solid #b30000;
+    border-radius: 8px;
+    height: calc(100% - 20px);
+    overflow-y: auto;
+    width: 100%; /* Ensure it takes full width */
+  }
+  

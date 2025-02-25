@@ -25,7 +25,6 @@
   }
   
 
-
   .mySwiperhomeSlider{
     height: 50vh;
   }
@@ -44,4 +43,6 @@
   }
   .swiper-pagination-bullet-active {
     background: #8392a5;
+
+
 }
