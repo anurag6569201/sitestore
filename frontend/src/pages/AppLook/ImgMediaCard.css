@@ -79,3 +79,17 @@
   background-color: #cab7b7;
   color: black;
 }
+
+.sticky-container {
+  position: sticky;
+  top: 20px;
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.sticky-container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -1,10 +1,12 @@
 import React from "react";
+import "./app_styles.css";
 
 const AppAdditionalInformation = () => {
   return (
-    <div className="container mt-4">
-      <div className="card p-4 bg-dark text-white">
-        <h5 className="mb-3">Additional Information</h5>
+    <div className="Additional_information mt-4">
+      <br />
+      <div className="">
+        <h5 className="">Additional Information</h5><hr style={{ marginTop: '0', color: 'grey' }} />
         <div className="row">
           <div className="col-md-6">
             <p><strong>Developed by</strong><br /> rocksdanister</p>
@@ -17,15 +19,6 @@ const AppAdditionalInformation = () => {
             <p><strong>Category</strong><br /> <a href="#">Personalization</a></p>
             <p><strong>Supported languages</strong><br /> Afrikaans (South Africa), Arabic, Arabic (United Arab Emirates) <a href="#">Read more</a></p>
             <p><strong>Publisher info</strong><br /> <a href="#">Support</a> | <a href="#">Website</a> | <a href="#">Read more</a></p>
-          </div>
-        </div>
-        <div className="row mt-3">
-          <div className="col-md-6">
-            <p><strong>Report this product</strong><br /> <a href="#">Report this product for violating Microsoft Store Policy</a><br /> <a href="#">Report this product for illegal content</a></p>
-          </div>
-          <div className="col-md-6">
-            <p><strong>App badge</strong><br /> <a href="#">Create app badge</a></p>
-            <p><strong>Legal Disclaimer</strong><br /> This seller has certified that it will only offer products or services that comply with all applicable laws.</p>
           </div>
         </div>
       </div>
