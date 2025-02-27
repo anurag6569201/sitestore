@@ -5,10 +5,12 @@ import TopSearch from '../global/TopSearch/TopSearch';
 function Discover(){
     return (
         <>
-        <TopSearch/>
-        <br />
-        <HomeSlider/>
-        <Category/>
+            <div>
+                <TopSearch/>
+                <br />
+                <HomeSlider/>
+                <Category/>
+            </div>
         </>
     );
 }
