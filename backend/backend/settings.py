@@ -39,12 +39,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
 
-<<<<<<< Updated upstream
-    "rest_framework",
-=======
     'corsheaders',
     'rest_framework',
->>>>>>> Stashed changes
 
     'sites',
     'defualtsites',
