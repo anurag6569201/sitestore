@@ -1,0 +1,17 @@
+name
+domain
+Rating
+Age limit
+Short description
+
+3 screenshot
+Brief Description
+
+Features
+Addition Information 
+-- website speed
+-- user visits
+-- developer name
+-- published 
+-- category
+-- languages supports
